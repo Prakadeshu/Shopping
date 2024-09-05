@@ -88,7 +88,7 @@ if($authenticated){
           </a>
           <ul class="dropdown-menu">
             
-            <li><a class="dropdown-item" href="/profile.php">Profile</a></li>
+            <li><a class="dropdown-item" href="profile.php">Profile</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="logout.php">Logout</a></li>
           </ul>
@@ -107,7 +107,7 @@ if($authenticated){
     </li>
     <br>
     <li class="nav-item">
-      <a href="/login.php" class="btn btn-primary">Login</a>
+      <a href="login.php" class="btn btn-primary">Login</a>
     </li>
     </ul>
     <?php

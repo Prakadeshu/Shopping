@@ -51,7 +51,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 $_SESSION["created_at"] = $created_at;
 
                 // Redirect user to the home page
-                header("location: /index.php");
+                header("location: index.php");
                 exit;
             }
         }
@@ -91,7 +91,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <button type="submit" class="btn btn-primary">Log in</button>
                 </div>
                 <div class="col d-grid">
-                    <a href="/index.php" class="btn btn-outline-primary">Cancel</a>
+                    <a href="index.php" class="btn btn-outline-primary">Cancel</a>
                 </div>
             </div>
         </form>
